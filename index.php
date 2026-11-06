@@ -15,10 +15,7 @@ programador precisava repetir o nome da variável várias vezes (na declaração
 no parâmetro e na atribuição). Esse recurso limpa o arquivo, reduz linhas de 
 código e melhora muito a legibilidade do projeto.
 
-3. COMO FUNCIONA NA PRÁTICA? (Código ativo abaixo)
-4. COMO FARÍAMOS SEM ELE? (Código antigo comentado abaixo)
-
-5. QUANDO UTILIZAR?
+3. QUANDO UTILIZAR?
 É ideal para classes que servem principalmente para carregar dados, como Models, 
 Entidades de Banco de Dados ou DTOs (Data Transfer Objects). Por exemplo, em uma 
 aplicação web, ao receber os dados de um formulário de cadastro de usuário (Nome, 
@@ -43,7 +40,7 @@ class ProdutoAntigo {
 }
 */
 
-// 3. COMO FUNCIONA NA PRÁTICA? (JEITO MODERNO - ATIVO)
+// 5. COMO FUNCIONA NA PRÁTICA? (JEITO MODERNO - ATIVO)
 
 class Produto {
     
